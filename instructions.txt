@@ -1,0 +1,9 @@
+add virtual environment `venv` to jupyter notebook:
+ipython kernel install --user --name=venv
+
+list of kernels available in jupyter notebook:
+jupyter kernelspec list
+
+remove virtual environment `venv` from jupyter notebook:
+jupyter kernelspec uninstall venv
+
