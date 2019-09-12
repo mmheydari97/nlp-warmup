@@ -1,89 +1,26 @@
-# Project Title
+# NLP
 
-One Paragraph of project description goes here
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This repository contains python natural language tool kit (nltk) basics.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+[This](https://www.lynda.com/Python-tutorials/NLP-Python-Machine-Learning-Essential-Training/622075-2.html) tutorial can help you understand basics of natural language processing (NLP).
 
-```
-Give examples
-```
+### Table of contents
+| | Chapter | Description |
+| --- | --- | --- | 
+|1| **[NLP Basics](Chapter1)** | NLTK overview. Using regex for text data. Using Machine Learning pipelines for preprocessing.
+|2| **[Supplemental Data Cleaning](Chapter2)** | Introducing and comparing stemming and lemmatization.
+|3| **[Vectorizing Raw Data](Chapter3)** | Introducing and comparing vectorization methods like count vectorization, N-gram and inverse document frequency weighting.
+|4| **[Feature Engineering](Chapter4)** | Feature creation. Feature evaluation. Identifying candidate features for transformation. Box-Cox power transformation. 
+|5| **[Building Machine Learning Classifiers](Chapter5)** | Cross validation. Evaluation metrics. Hold out method. Random Forest classifier. Grid search for hyperparameter adjustment. Gradient Boosting method.  
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+### Note
+You will probably need to install nltk on a virtual environment and then use that virtual environment
+in a Jupyter Notebook. If so, you can find commands needed in [instructions.txt](instructions.txt).
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This project is licensed under the Apache License 2.0 - see the [LICENSE.md](LICENSE.md) file for details
 
 
